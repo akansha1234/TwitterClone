@@ -1,3 +1,7 @@
+.profile-screen {
+  margin: auto;
+  width: 100vw;
+}
 .profile {
   text-align: center;
   width: 600px;

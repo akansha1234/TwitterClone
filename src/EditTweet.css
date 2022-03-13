@@ -1,6 +1,10 @@
 .edit-screen {
   text-align: center;
   padding: 20px;
+  margin: auto;
+}
+.edit-tweet-form {
+  width: 100vw;
 }
 .edit-tweet-input {
   width: 60%;

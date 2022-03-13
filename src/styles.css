@@ -24,4 +24,7 @@
   .add-tweet-form {
     flex-wrap: wrap;
   }
+  .profile {
+    width: 100%;
+  }
 }

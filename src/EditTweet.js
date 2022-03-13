@@ -1,6 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import "./EditTweet.css";
+import Navbar from "./Navbar.js";
 const EditTweet = ({ elem, setElem, tweets, setTweets }) => {
   const history = useHistory();
   const handleEdit = async (e) => {
@@ -11,6 +12,7 @@ const EditTweet = ({ elem, setElem, tweets, setTweets }) => {
 
   return (
     <div className="edit-screen">
+      <Navbar />
       <h3> Edit your tweet</h3>
       <form className="edit-tweet-form">
         <input
